@@ -1,16 +1,117 @@
-# React + Vite
+# React Router Practice 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React application built to practice and understand React Router v6 concepts such as routing, nested routes, navigation, and layout components.
 
-Currently, two official plugins are available:
+This project is created purely for learning and hands-on practice while exploring modern React routing.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+--------------------------------------------------
 
-## React Compiler
+## 🔗 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Client-side routing using React Router v6
+- Multiple pages: Home, About, Courses
+- Nested routes inside Courses
+- Reusable layout components (Navbar & Footer)
+- Active link highlighting using NavLink
+- Clean and minimal UI
 
-## Expanding the ESLint configuration
+--------------------------------------------------
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+- React
+- React Router DOM (v6)
+- JavaScript (ES6+)
+- CSS
+
+--------------------------------------------------
+
+## 📁 Project Structure
+```
+src/
+├── components/
+│   ├── Nav.jsx
+│   └── Footer.jsx
+│
+├── pages/
+│   ├── Home.jsx
+│   ├── About.jsx
+│   ├── Courses.jsx
+│   ├── AllCourses.jsx
+│   ├── Kodr.jsx
+│   └── Kodex.jsx
+│
+├── App.jsx
+└── main.jsx
+```
+
+--------------------------------------------------
+
+## 🚦 Routes Overview
+
+/               → Home  
+/about          → About  
+/courses        → Courses  
+/courses/kodr   → Kodr  
+/courses/kodex  → Kodex  
+
+--------------------------------------------------
+
+## ▶️ Getting Started
+
+1) Clone the repository
+```
+git clone https://github.com/your-username/react-router-practice.git
+```
+
+3) Install dependencies
+```
+npm install
+```
+
+5) Run the development server
+```
+npm run dev
+```
+
+Open http://localhost:5173 in your browser.
+
+--------------------------------------------------
+
+## 📸 Screenshot
+
+![App Screenshot](.src/assets/images/screenshot.png)
+
+
+--------------------------------------------------
+
+## 🎯 Learning Goals
+
+- Understand React Router fundamentals
+- Learn nested routing
+- Practice layout-based routing
+- Improve navigation UX
+- Strengthen React basics
+
+--------------------------------------------------
+
+## 📌 Notes
+
+- This is a practice project
+- Not intended for production use
+- UI kept simple to focus on learning
+
+--------------------------------------------------
+
+## 👨‍💻 Author
+
+Hamza Khan  
+Learning Frontend Development with React ⚛️  
+Consistency • Growth • Discipline
+
+--------------------------------------------------
+
+## ⭐ Feedback
+
+Suggestions and improvements are always welcome.
+Learning never stops 🙂
