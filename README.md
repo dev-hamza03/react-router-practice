@@ -80,7 +80,7 @@ Open http://localhost:5173 in your browser.
 
 ## 📸 Screenshot
 
-![App Screenshot](.src/assets/images/screenshot.png)
+![App Screenshot](./src/assets/images/screenshot.png)
 
 
 --------------------------------------------------
